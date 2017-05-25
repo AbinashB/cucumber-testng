@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite" verbose="1" >
+    <test name="first test" >
+        <classes>
+            <class name="RunnerClassTestForOneWay" />
+        </classes>
+    </test>
+
+    <test name="second test">
+        <classes>
+            <class name="RunnerClassTestForTwoWay"/>
+
+        </classes>
+    </test>
+</suite>
